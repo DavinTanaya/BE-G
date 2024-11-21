@@ -1,0 +1,21 @@
+h1 {
+    color: yellow;
+}
+
+.judulfooter{
+    color: pink;
+}
+
+#pfooter{
+    color: pink;
+}
+
+.footer{
+    justify-items: center;
+    border: 2px solid black;
+}
+
+img{
+    transform: rotate(90deg);
+    display: flex;
+}
