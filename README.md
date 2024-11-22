@@ -1,5 +1,4 @@
 Step to run this project:
-```
 - `git clone https://github.com/DavinTanaya/IMS`
 - `cp .env.example .env`
 - `composer i`
