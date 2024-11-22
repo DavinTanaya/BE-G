@@ -1,5 +1,5 @@
 Step to run this project:
-- `git clone https://github.com/DavinTanaya/IMS`
+- `git clone https://github.com/DavinTanaya/BE-G`
 - `cp .env.example .env`
 - `composer i`
 - `php artisan migrate`
