@@ -1,5 +1,5 @@
 Step to run this project:
-- `git clone https://github.com/DavinTanaya/BE-G -b pertemuan2`
+- `git clone https://github.com/DavinTanaya/BE-G -b pertemuan4`
 - `cp .env.example .env`
 - `composer i`
 - `php artisan migrate`
