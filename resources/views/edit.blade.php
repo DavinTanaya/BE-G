@@ -1,15 +1,15 @@
 @extends('master')
-
 @section('content')
-    <form action="/create-book" method="POST" enctype="multipart/form-data">
+    <form action="{{ "/edit-book/".$book->id }}" method="POST" enctype="multipart/form-data">
         @csrf
+        @method('put')
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Title</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="title">
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="title" value="{{ $book->title }}">
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Author</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" name="author">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="author" value="{{ $book->author }}">
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword2" class="form-label">Image</label>
